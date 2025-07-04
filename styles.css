@@ -1,0 +1,51 @@
+body {
+    background-image: url("images/background.jpg");
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    transform: translate(0, 25%);
+}
+
+header {
+    margin: 50px auto 50px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px rgb(34, 34, 34);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main a {
+    background-color: #7943b3;
+    margin: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(34, 34, 34);
+}
+
+.games {
+    background-image: url("images/invader.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github {
+    background-image: url("images/github.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.youtube {
+    background-image: url("images/youtube.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
